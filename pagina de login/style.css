@@ -28,14 +28,13 @@ nav a{
     text-decoration: none;
     padding: 4px;
     font-weight: bolder;
-    text-align: center;
 }
 nav a:hover{
     background-color: #E5EE2D;
     border-radius: 4px;
     padding: 5px;
     color: black;
-    transition-duration: .4s;
+    transition-duration: .3s;
 
 }
 body {
@@ -62,6 +61,8 @@ body {
     height: 300px;
     flex-basis: auto;
     color: blue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 9px;
 }
 .left h2 {
     background-color: #0C0B50;
@@ -69,6 +70,8 @@ body {
     text-align: center;
     font-family: 'Farsan', cursive;
     padding: 8px;
+    border-top-left-radius: 9px;
+    
 }
 .left p {
     margin-top: 8px;
@@ -89,6 +92,8 @@ body {
     width: 300px;
     height: 300px;
     padding: 10px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 .right a#top {
     display: inline-block;

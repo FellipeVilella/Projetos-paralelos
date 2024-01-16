@@ -55,7 +55,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-
+    padding: 0 4%;
 }
 .left {
     background-color: #E5EE2D;
@@ -112,6 +112,7 @@ form button {
     background-color: #E5EE2D;
     color: #0C0B50;
     border-radius: 15px;
+    cursor: pointer;
 }
 form input{
     margin-top: 10px;

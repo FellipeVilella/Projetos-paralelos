@@ -124,6 +124,7 @@ form input{
     border-radius: 10px;
     padding: 2px;
     outline-style: none;
+    text-indent: 5px;
 }
 .right a {
     text-decoration: none;

@@ -3,18 +3,59 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 header {
-    background-color: aquamarine;
-    width: 100%vh;
-    height: 50px;
+    background-color: #412A94;
+    padding: 20px 30px;
+    position: fixed;
+}
+header.container {
+    display: flex ;
+    justify-content: space-between;
+    align-items:center;
+}
+div.link {
+    font-size: 1em;
+    color: white;
 }
 body {
     background-color: black;
     color: white;
 }
-main {
-    background-color: rgb(69, 65, 208);
+main{
+    background-color: #412A94;
+}
+.capa {
+    background-image: url('imagens/profile-pic.png');
+    
+    height: 500px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-attachment: fixed;
+    padding: 20px;
+}
+.capa h2 {
+    padding-left: 10px;
+}
+.capa h1 {
+    padding: 20px 10px;
+}
+.capa p {
+    max-width: 550px;
+    padding-left: 10px;
+}
+.resumo img {
+    height: 80px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resumo {
+    background-color: rgb(54, 52, 52);
+    padding: 10px;
 }
 
 

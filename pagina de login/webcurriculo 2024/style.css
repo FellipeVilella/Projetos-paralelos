@@ -4,20 +4,27 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 header {
     background-color: #412A94;
     padding: 20px 30px;
-    position: fixed;
+    width: 100vw;
 }
 header.container {
-    display: flex ;
-    justify-content: space-between;
+    position: relative;
     align-items:center;
 }
+div.name {
+    position: absolute;
+    top: 10px;
+}
 div.link {
+    position: relative;
+    float: right;
     font-size: 1em;
     color: white;
+    top: 0px;
 }
 body {
     background-color: black;
@@ -29,10 +36,10 @@ main{
 .capa {
     background-image: url('imagens/profile-pic.png');
     
-    height: 500px;
+    height: 50vw;
     background-size: 300px;
     background-repeat: no-repeat;
-    background-position: center center ;
+    background-position: right center ;
     background-attachment: fixed;
     padding: 20px;
 }

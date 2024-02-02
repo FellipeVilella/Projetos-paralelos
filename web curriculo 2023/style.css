@@ -69,10 +69,20 @@ a {
     background-color: #dac8ae;
     padding: 10px;
 }
+.conteudo1 img {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
 .conteudo2 {
     background-color: #f7f3e3;
     padding: 10px;
     padding-top: 50px;
+    height: 60vh;
+}
+.conteudo2 table {
+    border-spacing: 8px;
+    margin: auto;
 }
 .conteudo2 p {
     width: 50vw;

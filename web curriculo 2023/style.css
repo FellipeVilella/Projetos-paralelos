@@ -43,14 +43,16 @@ a {
     background-color: #f7f3e3;
     display: inline;
     float: left;
-    margin-left: 100px;
+    margin-left: 60px;
     color: #6F1A07;
+    width: 25vw;
 }
 .parte-fixa a {
     color: #6F1A07;
     padding: 8px;
     text-decoration: none;
     font-size: 1.1em;
+    width: 10vw;
 }
 .parte-fixa a:visited {
     color: currentColor;
@@ -78,20 +80,20 @@ a {
     background-color: #f7f3e3;
     padding: 10px;
     padding-top: 50px;
-    height: 60vh;
+    
 }
 .conteudo2 table {
     border-spacing: 8px;
     margin: auto;
+    width: 50vw;
+    text-align: center;
 }
 .conteudo2 p {
     width: 50vw;
 }
 .conteudo2 img {
-    position: relative;
+    display: flex;
     float: right;
-    left: -200px;
-    top: 20px;
     height: 200px;
 }
 a:visited {
